@@ -1,6 +1,6 @@
 # U.S. banks venture capital activity
 
-This repository contains data (and code to create it) on U.S. bank "venture capital (VC) revenue."  The data plays an important role in the paper "Venture capitalists' access to capital" (Chen and Ewens 2021).  That paper uses this data to assess the importance of banking institutions as limited partners in venture capital.   The zip file contains the csv file and the do file allows you to recreate it.  You will need to download the raw Call Reports data from the FDIC (see here). 
+This repository contains [data](https://github.com/michaelewens/Banks-In-VC/blob/main/vcRevenue.csv.zip) (and [code](https://github.com/michaelewens/Banks-In-VC/blob/main/publicVCrevenue.do) to create it) on U.S. bank "venture capital (VC) revenue."  The [data](https://github.com/michaelewens/Banks-In-VC/blob/main/vcRevenue.csv.zip) plays an important role in the paper "Venture capitalists' access to capital" (Chen and Ewens 2021).  That paper uses this data to assess the importance of banking institutions as limited partners in venture capital.   The [zip file](https://github.com/michaelewens/Banks-In-VC/blob/main/vcRevenue.csv.zip) contains the csv file and the [Stata do file](https://github.com/michaelewens/Banks-In-VC/blob/main/publicVCrevenue.do) allows you to recreate it.  You will need to download the [raw Call Reports data from the FDIC](https://cdr.ffiec.gov/public/PWS/DownloadBulkData.aspx). 
 
 ## Cite
 
@@ -22,7 +22,7 @@ We use data collected from banks’ Consolidated Reports of Condition and Income
 
 ## More details on the data construction and setting
 
- To better understand the sources of this VC revenue or income, consider an example in which a bank invests as an LP into VC fund X. They invest $I and receives 20% of the fund (i.e.  they are 20% of total committed capital), and the bank’s equity position in the fund is 20% of all proceeds up to $I/0.2, and <img src="https://render.githubusercontent.com/render/math?math=80\%*20\%"> of all distributions after $I is paid back (i.e., 20% carry).  The fund has a 2% annual fee on committed capital, i.e.,<img src="https://render.githubusercontent.com/render/math?math=\$I*0.02"> is paid by the bank every year.  For the bank's VC investments in fund X, we can then analyze whether there will be venturecapital revenue booked for different types of events.
+ To better understand the sources of this VC revenue or income, consider an example in which a bank invests as an LP into VC fund X. They invest $I and receives 20% of the fund (i.e.  they are 20% of total committed capital), and the bank’s equity position in the fund is 20% of all proceeds up to $I/0.2, and .80*.20 of all distributions after $I is paid back (i.e., 20% carry).  The fund has a 2% annual fee on committed capital, i.e.,<img src="https://render.githubusercontent.com/render/math?math=\$I*0.02"> is paid by the bank every year.  For the bank's VC investments in fund X, we can then analyze whether there will be venturecapital revenue booked for different types of events.
  
  1. Capital committment
  2. Management fee

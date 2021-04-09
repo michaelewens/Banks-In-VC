@@ -4,7 +4,7 @@ This repository contains [data](https://github.com/michaelewens/Banks-In-VC/blob
 
 ## Cite
 
-Chen, Jun and Michael Ewens.  "Venture capitalists' access to capital", Working Paper, 2021.
+[Chen, Jun](http://en.rmbs.ruc.edu.cn/show-77-987-1.html) and [Michael Ewens](http://ewens.caltech.edu).  "Venture capitalists' access to capital", Working Paper, 2021.
 
 ## Data description
 
